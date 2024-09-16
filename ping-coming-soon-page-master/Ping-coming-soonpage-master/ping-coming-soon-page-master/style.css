@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+img{
+    scale: .5;
+}
+
+div.socials svg{
+    /* scale: .1; */
+    width: 40px;
+    height:40px;
+    border: 2px solid hsl(223, 87%, 63%);
+    border-radius: 30px;
+    padding: 5px;
+    fill: hsl(223, 87%, 63%);
+    cursor: pointer;
+}
+
+div.socials svg:hover{
+    /* scale: .1; */
+    width: 40px;
+    height:40px;
+    border: 2px solid hsl(223, 87%, 63%);
+    border-radius: 30px;
+    padding: 5px;
+    fill: white;
+    background-color:hsl(223, 87%, 63%) ;
+    cursor: pointer;
+    transform: rotate(720deg);
+    transition-duration: 2s;
+}
+
+div.socials{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+div.interact{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    margin-left: 350px;
+}
+
+input{
+    position: relative;
+    width: 500px;
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 15px;
+
+}
+
+/* input::placeholder{
+    position: relative;
+    padding-left: 20px;
+} */
+button{
+    position: relative;
+    margin-top: 10px;
+    width: 500px;
+    height: 45px;
+    border-radius: 300px;
+    background-color: hsl(223, 87%, 63%);
+    border: 3px solid hsl(223, 87%, 63%);
+    cursor: pointer;
+    box-shadow: 3px 3px 5px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px -3px rgba(0,0,0,0.75);
+color: white;
+
+}
+
+
+div.interact p{
+    position: absolute;
+    margin-right: 500px;
+    
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    body{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   div.interact {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+   }
+
+  div.pic{
+    position: static;
+    margin-top: -50px;
+  }
+
+
+   button{
+    width: 200px;
+    margin: 0;
+    margin-left: 10px;
+    cursor: pointer;
+   }
+   input{
+    position: relative;
+    width: 350px;
+    cursor: text;
+   }
+   div.interact p{
+    position: absolute;
+    display: block;
+    margin-right: 0px;
+    margin-top: 80px;
+    margin-left: -430px;
+    opacity: 0;
+   }
+
+
+    
+ }
