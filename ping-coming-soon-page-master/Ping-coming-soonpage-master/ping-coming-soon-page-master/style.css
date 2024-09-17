@@ -42,14 +42,16 @@ div.socials{
     position: relative;
     margin: 0 auto;
 }
-div.interact{
-    display: flex;
-    flex-flow: column;
-    position: relative;
-    margin-left: 350px;
+form{
+   display: flex;
+   flex-flow: column;
+  justify-content: center;
+  align-items: center;
+    /* margin-left: 200px; */
+  
 }
 
-input{
+input.mail{
     position: relative;
     width: 500px;
     border-radius: 50px;
@@ -58,11 +60,11 @@ input{
 
 }
 
-/* input::placeholder{
+/* .mail::placeholder{
     position: relative;
     padding-left: 20px;
 } */
-button{
+#sub{
     position: relative;
     margin-top: 10px;
     width: 500px;
@@ -79,11 +81,11 @@ color: white;
 }
 
 
-div.interact p{
+/* div.interact p{
     position: absolute;
     margin-right: 500px;
     
-}
+} */
 
 
 
@@ -97,7 +99,7 @@ div.interact p{
         align-items: center;
     }
 
-   div.interact {
+   form{
     display: flex;
     flex-flow: row;
     margin: 0 auto;
@@ -111,25 +113,25 @@ div.interact p{
   }
 
 
-   button{
+   #sub{
     width: 200px;
     margin: 0;
     margin-left: 10px;
     cursor: pointer;
    }
-   input{
+   input.mail{
     position: relative;
     width: 350px;
     cursor: text;
    }
-   div.interact p{
+   /* div.interact p{
     position: absolute;
     display: block;
     margin-right: 0px;
     margin-top: 80px;
     margin-left: -430px;
     opacity: 0;
-   }
+   } */
 
 
     
