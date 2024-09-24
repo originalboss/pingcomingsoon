@@ -91,14 +91,14 @@ div.interact p{
     
 }
 
-/* p.error {
-
+div.interact p.error{
     position: relative;
     margin-right: 500px;
     color: red;
     opacity: 1;
+}
 
-} */
+
 
 
 
@@ -137,6 +137,38 @@ div.interact p{
     width: 350px;
     cursor: text;
    }
+   input.mail.error{
+    position: relative;
+    width: 350px;
+    cursor: text;
+    border: 2px red solid;
+   }
+
+   input.mail.success{
+    position: relative;
+    width: 350px;
+    cursor: text;
+    border: 2px green solid;
+   }
+
+
+
+
+
+   /* div.interact input.mail.error{
+    position: relative;
+    width: 350px;
+    cursor: text;
+    border-color: 3px solid red;
+   } */
+   
+   
+   
+   
+   
+   
+   
+   
    div.interact p{
     position: absolute;
     display: block;
@@ -146,13 +178,25 @@ div.interact p{
     opacity: 0;
    }
 
-   /* p.error{
-
+   div.interact p.error{
     position: relative;
+    display: block;
+    margin-right: 0px;
+    margin-top: 80px;
+    margin-left: -430px;
     opacity: 1;
     color: red;
-   } */
+   }
 
+   div.interact p.success{
+    position: relative;
+    display: block;
+    margin-right: 0px;
+    margin-top: 80px;
+    margin-left: -430px;
+    opacity: 1;
+    color: green;
+   }
 
 
     
