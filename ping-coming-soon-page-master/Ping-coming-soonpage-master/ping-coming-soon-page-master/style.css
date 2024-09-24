@@ -80,11 +80,24 @@ color: white;
 
 }
 
+/* .error{
+    border: 2px red solid;
+} */
 
-/* div.interact p{
+
+div.interact p{
     position: absolute;
     margin-right: 500px;
     
+}
+
+/* p.error {
+
+    position: relative;
+    margin-right: 500px;
+    color: red;
+    opacity: 1;
+
 } */
 
 
@@ -124,14 +137,22 @@ color: white;
     width: 350px;
     cursor: text;
    }
-   /* div.interact p{
+   div.interact p{
     position: absolute;
     display: block;
     margin-right: 0px;
     margin-top: 80px;
     margin-left: -430px;
     opacity: 0;
+   }
+
+   /* p.error{
+
+    position: relative;
+    opacity: 1;
+    color: red;
    } */
+
 
 
     
